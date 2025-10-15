@@ -1,29 +1,25 @@
+import React from "react";
+
 const Leaderboard = () => {
     const leaders = [
-        { name: "Akin Majekodunmi", score: 301 },
-        { name: "Lola Ifeanyichukwu", score: 289 },
-        { name: "Corrine Amadi", score: 280 },
-        { name: "Faraz Abubakar", score: 278 },
-        { name: "Majorie Etim", score: 270 },
-        { name: "Ifeoluwa Subair", score: 240 },
+        { name: "Akin Majekodunmi", issues: 301 },
+        { name: "Lola Ifeanyichukwu", issues: 289 },
+        { name: "Corrine Amadi", issues: 280 },
     ];
 
     return (
-        <aside className="leaderboard">
-        <h2>Leaderboard 🏅</h2>
-        <div className="leaderboard__list">
-            {leaders.map((leader, index) => (
-            <div className="leaderboard__item" key={index}>
-                <span className="rank">#{index + 1}</span>
-                <div className="leader-info">
-                <p className="name">{leader.name}</p>
-                <p className="score">{leader.score} issues solved</p>
-                </div>
+        <div className="leaderboard">
+        <h3>Leaderboard 🏅</h3>
+        {leaders.map((l, i) => (
+            <div key={i} className="leader">
+            <span>{i + 1}.</span>
+            <p>{l.name}</p>
+            <span>{l.issues}</span>
             </div>
-            ))}
+        ))}
         </div>
-        </aside>
     );
 };
 
 export default Leaderboard;
+

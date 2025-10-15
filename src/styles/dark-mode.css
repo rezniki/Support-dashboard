@@ -1,0 +1,51 @@
+.dashboard.dark {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.dashboard.dark .metrics-bar,
+.dashboard.dark .chat,
+.dashboard.dark .tickets-list,
+.dashboard.dark .suggestions-panel {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dashboard.dark .ticket {
+  background: #2d3748;
+}
+
+.dashboard.dark .message.client {
+  background: #374151;
+}
+
+.dashboard.dark .message.operator {
+  background: #2563eb;
+  color: #fff;
+}
+
+.dashboard.dark .chat-input input {
+  background: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+.dashboard.dark button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+
+.dashboard.dark button:hover {
+  background: #1d4ed8;
+}
+
+.dashboard.dark .suggestion.highlight {
+  background: #2563eb;
+  color: white;
+}
+
+.dashboard.dark .suggestion {
+  background: #374151;
+  color: #d1d5db;
+}
