@@ -4,18 +4,18 @@ const MetricsBar = ({ darkMode, toggleDark, focusMode, toggleFocus }) => {
     return (
         <div className="metrics-bar">
         <div className="metrics">
-            <div>Assigned: <span>86</span></div>
-            <div>Solved: <span>24</span></div>
-            <div>Pending: <span>60</span></div>
-            <div>Escalated: <span>2</span></div>
-            <div>Response Time (avg): <span>60s</span></div>
+            <div className="metric-label">Назначенный: <span>86</span></div>
+            <div className="metric-label">Решено: <span>24</span></div>
+            <div className="metric-label">Ожидающие: <span>60</span></div>
+            <div className="metric-label">Распространена: <span>2</span></div>
+            <div className="metric-label">Время ответа: <span>60s</span></div>
         </div>
         <div className="controls">
             <button onClick={toggleDark}>
-            {darkMode ? "Light Mode" : "Dark Mode"}
+            {darkMode ? "Светлый режим" : "Темный режим"}
             </button>
             <button onClick={toggleFocus}>
-            {focusMode ? "Exit Focus" : "Focus Mode"}
+            {focusMode ? "Выход из фокуса" : "Режим фокусировки"}
             </button>
         </div>
         </div>

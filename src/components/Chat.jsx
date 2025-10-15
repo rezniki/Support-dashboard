@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 const Chat = () => {
     const [messages, setMessages] = useState([
-        { id: 1, text: "Good day, I need to know how the refund process works.", sender: "client" },
-        { id: 2, text: "You have reached Supportzen chatbot. My name is Yinka.", sender: "operator" },
+        { id: 1, text: "Добрый день, мне нужно знать, как работает процесс возврата.", sender: "client" },
+        { id: 2, text: "Вы позвонили chatbot Supportzen. Меня зовут Иван.", sender: "operator" },
     ]);
 
     const quickReplies = [
-        "Sure! I'll be happy to help you out.",
-        "We apologize for the inconvenience.",
-        "Do you have any other questions?",
+        "Конечно! Я буду рад помочь вам.",
+        "Приносим извинения за неудобства.",
+        "Есть ли у вас какие-либо другие вопросы?",
     ];
 
     const [input, setInput] = useState("");
@@ -24,12 +24,12 @@ const Chat = () => {
         <div className="chat">
         <div className="chat-header">
             <div>
-            <p>How can I get a refund? (MH5609)</p>
+            <p>Как получить возврат средств? (MH5609)</p>
             </div>
             <div className="chat-actions">
             <button>📞</button>
             <button>✉️</button>
-            <button className="close">Close Ticket</button>
+            <button className="close">Закрыть диалог</button>
             </div>
         </div>
 
@@ -52,7 +52,7 @@ const Chat = () => {
         <div className="chat-input">
             <input
             type="text"
-            placeholder="Type a message..."
+            placeholder="Введите сообщение..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
             />

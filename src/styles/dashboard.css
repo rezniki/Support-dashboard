@@ -25,9 +25,16 @@ body {
   gap: 20px;
 }
 
+.metric-label {
+  background-color: #1e2a78;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .metrics span {
   font-weight: 600;
-  color: #2563eb;
+  color: whitesmoke;
 }
 
 .controls button {
@@ -97,6 +104,16 @@ body {
 
 .ticket:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tickets-tabs button {
+  background: #1d4ed8;
+  color: whitesmoke;
+  padding: 18px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .status-dot {
