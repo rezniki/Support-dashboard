@@ -15,15 +15,15 @@ const SuggestionsPanel = () => {
 
     return (
         <div className="suggestions-panel">
-            <h3>Рекомендации для оператора 🤖</h3>
+            <h3 className="suggestions-title">Рекомендации для оператора 🤖</h3>
             <div className="suggestions-section main">
-                <h4>Основные</h4>
+                <h4 className="suggestions-title">Основные</h4>
                 {mainSuggestions.map((s, i) => (
                 <div key={i} className="suggestion highlight">{s}</div>
                 ))}
             </div>
             <div className="suggestions-section additional">
-                <h4>Дополнительные</h4>
+                <h4 className="suggestions-title">Дополнительные</h4>
                 {additional.map((s, i) => (
                 <div key={i} className="suggestion">{s}</div>
                 ))}

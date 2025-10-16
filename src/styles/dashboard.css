@@ -142,7 +142,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  border-bottom: 1px solid #ddd;
   background: #f9fafb;
 }
 
@@ -216,7 +215,6 @@ body {
 .chat-input {
   display: flex;
   padding: 12px 20px;
-  border-top: 1px solid #ddd;
 }
 
 .chat-input input {

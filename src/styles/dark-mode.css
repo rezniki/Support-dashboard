@@ -11,17 +11,42 @@
   border-color: #374151;
 }
 
+.dashboard.dark .sidebar {
+  background-color: #111827;
+}
+
 .dashboard.dark .ticket {
   background: #2d3748;
 }
 
+.dashboard.dark .tickets-title {
+  color: whitesmoke;
+}
+
+.dashboard.dark .ticket-title {
+  color: whitesmoke;
+}
+
+.dashboard.dark .ticket-preview {
+  color: whitesmoke;
+}
+
 .dashboard.dark .message.client {
   background: #374151;
+  color: whitesmoke;
 }
 
 .dashboard.dark .message.operator {
   background: #2563eb;
   color: #fff;
+}
+
+.dashboard.dark .chat-header {
+  background: #111827;
+}
+
+.dashboard.dark .chat-header {
+  color: whitesmoke;
 }
 
 .dashboard.dark .chat-input input {
@@ -44,6 +69,12 @@
   background: #2563eb;
   color: white;
 }
+
+.dashboard.dark .suggestions-title {
+  color: whitesmoke;
+}
+
+.dashboard.dark 
 
 .dashboard.dark .suggestion {
   background: #374151;

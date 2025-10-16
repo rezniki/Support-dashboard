@@ -24,7 +24,7 @@ const Chat = () => {
         <div className="chat">
         <div className="chat-header">
             <div>
-            <p>Как получить возврат средств? (MH5609)</p>
+            <p className="chat-title">Как получить возврат средств? (MH5609)</p>
             </div>
             <div className="chat-actions">
             <button>📞</button>
